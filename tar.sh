@@ -13,3 +13,4 @@ for folder in */; do
   folder_name=${folder%/}
   tar -czvf "$script_dir/$destination_dir/$folder_name.tar.gz" "$folder_name"
 done
+
